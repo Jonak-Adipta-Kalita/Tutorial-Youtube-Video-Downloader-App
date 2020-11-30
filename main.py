@@ -73,7 +73,7 @@ DownloadingTimeLabel = Label(root, text="Time Left: ", font=('arial', 15, 'bold'
 DownloadingSizeLabelResult = Label(root, text='', font=('arial', 15, 'bold'), bg="olivedrab1")
 DownloadingRecievedLabelResult = Label(root, text='', font=('arial', 15, 'italic bold'), bg="olivedrab1")
 DownloadingTimeLabelResult = Label(root, text='', font=('arial', 15, 'italic bold'), bg="olivedrab1")
-DownloadingBarTextLabel = Label(root, text='Downloading Bar', width=36, fg='red', font=('agency fb', 23, 'bold'), bg="olivedrab1")
+DownloadingBarTextLabel = Label(root, text='', width=36, fg='red', font=('agency fb', 23, 'bold'), bg="olivedrab1")
 DownloadingProgressBarLabel = Label(root, text='', width=36, font=('agency fb', 40, 'bold'), bg="olivedrab1", fg='red', relief='raised')
 UrlEntry = Entry(root, textvariable=urltext, font=('arial', 20, 'bold'), width=31)
 ClickButton = Button(root, text='Enter URL and Click', font=('arial', 10, 'bold'), bg='green', fg='red', activebackground='blue', width=23, bd=8, command=VideoURL)
