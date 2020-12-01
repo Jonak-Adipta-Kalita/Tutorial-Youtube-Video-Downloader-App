@@ -77,7 +77,7 @@ def ChangeIntroLabelColor():
 
 # Ceating Label, Entry, Listbox, Buttons, ProgressBar #
 Scroll_bar = Scrollbar(root)
-IntroLabel = Label(root, text="JAK YouTube Video/Audio Downloader", width=36, relief='ridge', bd=4, font=('agency fb', 40, 'italic bold'), fg="red")
+IntroLabel = Label(root, text="JAK YouTube Video/Audio Downloader", width=36, relief='ridge', bd=4, font=('agency fb', 40, 'bold'), fg="red")
 ChangeIntroLabelColor()
 list_Box = Listbox(root, yscrollcommand=Scroll_bar.set, width=50, height=10, font=('arial', 12, 'italic bold'), relief='groove', bd=2, highlightcolor="blue", highlightbackground="orange", highlightthickness="2")
 list_Box.bind('<<ListboxSelect>>', SelectCursor)
